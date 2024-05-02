@@ -1,0 +1,30 @@
+.slide {
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/assets/photo-1510627489930-0c1b0bfb6785.avif");
+    background-position: center top;
+    background-size: cover;
+}
+.slide h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* align-items: center; */
+    padding: 40px 20px;
+    font-size: 40px;
+    text-align: right;
+    color: white;
+    font-weight: 800;
+}
+
+.slide span{
+    /* display: block; */
+    padding-right: 20px;
+}
+
+.slide .one{
+    font-size: x-larger;
+}
+.slide .two{
+    font-size: larger;
+}
